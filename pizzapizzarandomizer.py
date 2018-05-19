@@ -87,7 +87,7 @@ for side in ["Left", "Right"]:
         print("{0} side's special topping #{1} is: {2} ({3}X)".format(side,
                                                                       i+1,
                                                                       getRandom(toppings),
-                                                                      random.randint(0, 4)))
+                                                                      random.randint(1, 4)))
 
 print("\nEnjoy!!")
 input("Press enter to exit...")
