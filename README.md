@@ -1,18 +1,16 @@
 # PizzaPizzaRandomizer
 To help you decide what to order
 
-Sometimes you don't know what to order at Pizza Pizza. That is where the Pizza Pizza Randomizer comes in. It will generate for you a pizza which you can order at your local Pizza Pizza.
+Sometimes you don't know what to order at Pizza Pizza. That is where the Pizza Pizza Randomizer comes in. It will generate for you a pizza which you can order at your local Pizza Pizza. 
 
-Sometimes, the results are good:
-- Your base sauce is: Pesto and Creamy Garlic
-- Your base cheese is: Four Cheese Base
-- Special topping #1 is: Salami
-- Special topping #2 is: Sun-dried Tomatoes
-- Special topping #3 is: Chili Peppers
+Here is a sample of a tasty pizza you can create:
+- Your base sauce is: Creamy Garlic Sauce
+- Your base cheese is: Mozzarella Cheese
+- Left side's special topping #1 is: Broccoli (1X)
+- Left side's special topping #2 is: Four Cheese Blend Topping (1X)
+- Left side's special topping #3 is: Caramelized Onions (3X)
+- Right side's special topping #1 is: Pineapple (1X)
+- Right side's special topping #2 is: Grilled Chicken (1X)
+- Right side's special topping #3 is: Parmesan Cheese (4X)
 
-Sometimes, the results are better:
-- Your base sauce is: No Sauce
-- Your base cheese is: No Cheese
-- Special topping #1 is: Olive Oil
-- Special topping #2 is: Balsamic Vinegar
-- Special topping #3 is: Extra Cheese
+The author makes no guarantees about the price of the resulting pizza.
