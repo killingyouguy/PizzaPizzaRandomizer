@@ -14,3 +14,6 @@ Here is a sample of a tasty pizza you can create:
 - Right side's special topping #3 is: Parmesan Cheese (4X)
 
 The author makes no guarantees about the price of the resulting pizza.
+
+# To install without Python
+There's a zip file that you can extract and run the program without Python installed! This is thanks to pyinstaller.
