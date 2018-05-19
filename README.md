@@ -1,7 +1,7 @@
 # PizzaPizzaRandomizer
 To help you decide what to order
 
-Sometimes you don't know what to order at Pizza Pizza. That is where the Pizza Pizza Randomizer comes in. It will generate for you a pizza which you can order at your local Pizza Pizza. 
+Sometimes you don't know what to order at Pizza Pizza. The Pizza Pizza website itself does not have a randomization function. That is where the Pizza Pizza Randomizer comes in. It will generate for you a pizza which you can order at your local Pizza Pizza. 
 
 Here is a sample of a tasty pizza you can create:
 - Your base sauce is: Creamy Garlic Sauce
