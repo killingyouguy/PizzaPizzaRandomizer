@@ -101,10 +101,16 @@ used_toppings = []
 
 for side in sides:
     for i in range(0, random.randint(0, 3)):
-        print("{0}'s special topping #{1} is: {2} ({3}X)".format(side,
-                                                                      i+1,
-                                                                      get_random(toppings),
-                                                                      random.randint(1, 4)))
+        topping_candidate = ""
+        while (True):
+            topping_candidate = get_random(toppings)
+            if (topping_candidate not in used_toppings):
+                print("{0}'s special topping #{1} is: {2} ({3}X)".format(side,
+                                                                         i+1,
+                                                                         topping_candidate,
+                                                                         random.randint(1, 4)))
+                used_toppings.append(topping_candidate)
+                break;
 
 print("\nEnjoy!!")
 input("Press enter to exit...")
