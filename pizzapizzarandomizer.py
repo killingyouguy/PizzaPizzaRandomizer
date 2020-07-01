@@ -85,11 +85,11 @@ We're preparing your special pizza...""")
 print("Your base sauce is: {0}".format(getRandom(sauce)))
 print("Your base cheese is: {0}".format(getRandom(cheese)))
 
-sides = ["Left", "Right", "Centre"]
+sides = ["Left side", "Right side", "Centre"]
 
 for side in sides:
     for i in range(0, random.randint(0, 3)):
-        print("{0} side's special topping #{1} is: {2} ({3}X)".format(side,
+        print("{0}'s special topping #{1} is: {2} ({3}X)".format(side,
                                                                       i+1,
                                                                       getRandom(toppings),
                                                                       random.randint(1, 4)))
