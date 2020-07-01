@@ -3,6 +3,15 @@
 
 import random
 
+size = ["Small",
+        "Medium",
+        "Large",
+        "Extra Large"]
+dough = ["Regular",
+         "Whole Grain"]
+thiccness = ["Regular", 
+             "Thin", 
+             "Thick"]
 sauce = ["Honey Garlic Sriracha",
          "Buffalo Blue Cheese",
          "Chipotle",
@@ -80,8 +89,11 @@ def flipCoin():
 print("""PIZZA PIZZA RANDOMIZER
 by Killingyouguy
 
-We're preparing your special pizza...""")
+We're preparing your special pizza...\n""")
 
+print("You're getting a {0} pizza!".format(getRandom(size)))
+print("Your dough is {0} {1} crust".format(getRandom(dough), 
+                                                  getRandom(thiccness)))
 print("Your base sauce is: {0}".format(getRandom(sauce)))
 print("Your base cheese is: {0}".format(getRandom(cheese)))
 
