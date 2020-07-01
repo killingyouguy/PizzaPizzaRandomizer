@@ -79,10 +79,10 @@ toppings = [# Veg
             "Tabasco Sauce",
             "Texas Bbq Sauce on Top"]
 
-def getRandom(arr):
+def get_random(arr):
     return arr[random.randint(0, len(arr)-1)]
     
-def flipCoin():
+def flip_coin():
     return bool(random.getrandbits(1))
 
 print("""PIZZA PIZZA RANDOMIZER
@@ -90,19 +90,20 @@ by Killingyouguy
 
 We're preparing your special pizza...\n""")
 
-print("You're getting a {0} pizza!".format(getRandom(size)))
-print("Your dough is {0} {1} crust".format(getRandom(dough), 
-                                                  getRandom(thiccness)))
-print("Your base sauce is: {0}".format(getRandom(sauce)))
-print("Your base cheese is: {0}".format(getRandom(cheese)))
+print("You're getting a {0} pizza!".format(get_random(size)))
+print("Your dough is {0} {1} crust".format(get_random(dough), 
+                                                  get_random(thiccness)))
+print("Your base sauce is: {0}".format(get_random(sauce)))
+print("Your base cheese is: {0}".format(get_random(cheese)))
 
 sides = ["Left side", "Right side", "Centre"]
+used_toppings = []
 
 for side in sides:
     for i in range(0, random.randint(0, 3)):
         print("{0}'s special topping #{1} is: {2} ({3}X)".format(side,
                                                                       i+1,
-                                                                      getRandom(toppings),
+                                                                      get_random(toppings),
                                                                       random.randint(1, 4)))
 
 print("\nEnjoy!!")
