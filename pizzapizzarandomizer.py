@@ -73,6 +73,9 @@ toppings = ["Kalamata Olives",
 
 def getRandom(arr):
     return arr[random.randint(0, len(arr)-1)]
+    
+def flipCoin():
+    return bool(random.getrandbits(1))
 
 print("""PIZZA PIZZA RANDOMIZER
 by Killingyouguy
@@ -82,7 +85,13 @@ We're preparing your special pizza...""")
 print("Your base sauce is: {0}".format(getRandom(sauce)))
 print("Your base cheese is: {0}".format(getRandom(cheese)))
 
-for side in ["Left", "Right"]:
+possibleSides = ["Left", "Right", "Centre"]
+sides = []
+for ps in possibleSides:
+    if flipCoin():
+        sides.append(ps)
+
+for side in sides:
     for i in range(0, 3):
         print("{0} side's special topping #{1} is: {2} ({3}X)".format(side,
                                                                       i+1,
